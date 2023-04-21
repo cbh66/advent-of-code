@@ -1,0 +1,69 @@
+if (nextdigit() != (z mod 26) + 15) {
+    z = (z * 26) + w + 4
+}
+
+if (nextdigit() != (z mod 26) + 14) {
+    z = (z * 26) + w + 16
+}
+
+if (nextdigit() != (z mod 26) + 11) {
+    z = (z * 26) + w + 14
+}
+
+target = (z mod 26) - 13
+z = z / 26
+if (nextdigit() != target) {
+    z = (z * 26) + w + 3
+}
+
+if (nextdigit() != (z mod 26) + 14) {
+    z = (z * 26) + w + 11
+}
+
+if (nextdigit() != (z mod 26) + 15) {
+    z = (z * 26) + w + 13
+}
+
+target = (z mod 26) - 7
+z = z / 26
+if (nextdigit() != target) {
+    z = (z * 26) + w + 11
+}
+
+if (nextdigit() != (z mod 26) + 10) {
+    z = (z * 26) + w + 7
+}
+
+target = (z mod 26) - 12
+z = z / 26
+if (nextdigit() != target) {
+    z = (z * 26) + w + 12
+}
+
+if (nextdigit() != (z mod 26) + 15) {
+    z = (z * 26) + w + 15
+}
+
+target = (z mod 26) - 16
+z = z / 26
+if (nextdigit() != target) {
+    z = (z * 26) + w + 13
+}
+
+target = (z mod 26) - 9
+z = z / 26
+if (nextdigit() != target) {
+    z = (z * 26) + w + 1
+}
+
+target = (z mod 26) - 8
+z = z / 26
+if (nextdigit() != target) {
+    z = (z * 26) + w + 15
+}
+
+target = (z mod 26) - 8
+z = z / 26
+if (nextdigit() != target) {
+    z = (z * 26) + w + 4
+}
